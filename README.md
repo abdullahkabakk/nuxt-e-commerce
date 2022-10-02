@@ -39,6 +39,10 @@ Locally preview production build:
 npm run preview
 ```
 
+## Docker
+docker build -t nuxt-e-commerce .
+docker run -p 3000:3000 -d nuxt-e-commerce
+
 ## Sorular
 
 ### 1) Tercih ettiğiniz geliştirme ortamları nelerdir?
